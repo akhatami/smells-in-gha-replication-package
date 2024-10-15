@@ -1,0 +1,23 @@
+[tool.poetry]
+name="gha-ci-detector"
+version="0.0.3"
+authors = [
+    "double blind <double.blind@example.com>"
+]
+description = "A tool created to detect CI Smells for GitHub Actions workflows "
+
+[tool.poetry.dependencies]
+python = "^3.8"
+yamllint = "^1.35.1"
+ruamel-yaml = "^0.18.6"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+gha-ci-detector = "gha_ci_detector.__main__:main"
+
+#[project.scripts]
+#cli-name = "gha_ci_detector.__main__:main"

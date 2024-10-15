@@ -1,0 +1,9 @@
+requests~=2.31.0
+pydriller~=2.6
+gitpython
+xlsxwriter~=3.1.9
+editdistance~=0.6.2
+matplotlib~=3.8.2
+ruamel.yaml
+pandas-ods-reader
+odfpy
